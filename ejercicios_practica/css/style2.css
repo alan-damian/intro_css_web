@@ -1,0 +1,40 @@
+.user {
+    width: 300px;
+}
+
+article {
+    background-color: rgb(6, 73, 6);
+    width: fit-content;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 35px;
+    box-shadow: 10px 10px 20px rgba(201, 231, 13, 0.731);
+}
+
+.name {
+    color: rgb(221, 221, 19);
+}
+
+.id {
+    color: rgb(255, 116, 248);
+}
+
+.tarjeta {
+    position: relative;
+    display: inline-block;
+}
+
+.tarjeta-desplegable {
+    display: none;
+    position: absolute;
+}
+
+.tarjeta:hover .tarjeta-desplegable {
+    display: block;
+    background-color: rgb(29, 103, 29);
+    transition: 5s;
+    padding: 20px;
+    margin-left: 0px;
+    border-radius: 35px;
+    box-shadow: 10px 10px 20px rgba(209, 226, 22, 0.731);
+}
